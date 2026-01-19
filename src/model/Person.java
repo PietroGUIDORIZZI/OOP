@@ -5,6 +5,7 @@ public class Person {
     private String lastName;
     private int age;
     private Address address;
+    private Person spouse;
 
     public Person(String lastName, int age, String firstName) {
         this.lastName = lastName;
@@ -42,6 +43,14 @@ public class Person {
 
     public void setAddress(Address address) {
         this.address = address;
+    }
+
+    public Person getSpouse() {
+        return spouse;
+    }
+
+    public void setSpouse(Person spouse) {
+        this.spouse = spouse;
     }
 
     // toString method
