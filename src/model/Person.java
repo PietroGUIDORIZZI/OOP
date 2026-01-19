@@ -54,6 +54,14 @@ public class Person {
         this.spouse = spouse;
     }
 
+    public Pet getPet() {
+        return pet;
+    }
+
+    public void setPet(Pet pet) {
+        this.pet = pet;
+    }
+
     // toString method
 
     @Override
