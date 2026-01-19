@@ -1,3 +1,4 @@
+import model.Address;
 import model.Dog;
 import model.Person;
 
@@ -14,6 +15,11 @@ public class HelloWorld {
         john.setSpouse(jane);
 
         Dog jack = new Dog("Jack", "German Shepard");
+        jack.bark();
+        john.setAddress(new Address("Rua JVC", "SJDR", "MG", "36309-537"));
+        john.setPet(jack);
+
+        System.out.println(john);
 
 
     }
