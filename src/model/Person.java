@@ -8,7 +8,7 @@ public class Person {
     private Person spouse;
     private Pet pet;
 
-    public Person(String firstName, Pet pet, String lastName, int age, Address address, Person spouse) {
+    public Person(String firstName, String lastName, int age, Address address, Person spouse, Pet pet,) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
