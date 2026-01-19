@@ -6,6 +6,7 @@ public class Person {
     private int age;
     private Address address;
     private Person spouse;
+    private Pet pet;
 
     public Person(String lastName, int age, String firstName) {
         this.lastName = lastName;
