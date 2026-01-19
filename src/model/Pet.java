@@ -4,6 +4,11 @@ public class Pet {
     private String name;
     private int petAge;
 
+
+    public Pet() {
+
+    }
+
     public Pet(String name) {
         this.name = name;
         this.petAge = petAge;

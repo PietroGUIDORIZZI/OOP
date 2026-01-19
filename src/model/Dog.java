@@ -6,6 +6,12 @@ public class Dog extends Pet{
     public Dog(String name, String breed) {
         super(name);
         this.breed = breed;
+
+
+    }
+
+    public void bark() {
+        System.out.println("woof woof");
     }
 
     public String getBreed() {
@@ -18,6 +24,6 @@ public class Dog extends Pet{
 
     @Override
     public String toString() {
-        return "Dog [name=" + getName() + ", breed=" + breed + "]";
+       return "Dog [name=" + getName() + ", breed=" + breed + "]";
     }
 }
