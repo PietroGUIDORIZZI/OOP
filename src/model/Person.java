@@ -8,13 +8,10 @@ public class Person {
     private Person spouse;
     private Pet pet;
 
-    public Person(String firstName, String lastName, int age, Address address, Person spouse, Pet pet) {
+    public Person(String firstName, String lastName, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
-        this.address = address;
-        this.spouse = spouse;
-        this.pet = pet;
     }
 
     // Getters and Setters
